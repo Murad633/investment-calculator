@@ -30,7 +30,7 @@ export const UserInput = ({ userInput, onChangeInput }) => {
             type="number"
             required
             value={userInput.expectedReturn}
-            onChange={(e) => onChangeInput("exceptedReturn", e.target.value)}
+            onChange={(e) => onChangeInput("expectedReturn", e.target.value)}
           />
         </p>
         <p>
